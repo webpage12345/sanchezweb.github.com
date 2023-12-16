@@ -1,0 +1,56 @@
+body{
+    background-size: 100%;
+    background-color: black;
+    margin: 0;
+}
+.logo{
+    position: relative;
+    margin-left: 30px;
+
+}
+nav{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    position: fixed;  
+}
+.link{
+    font-family: Verdana;
+    margin-left: 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+    top: 40px;
+    transition: 0.5s;
+    padding: 10px 20px;
+    border-radius: 20px;   
+}
+.link:hover{
+    background-color: yellow;
+    color: violet;
+}
+.context{
+    color: white;
+    position: relative;
+    z-index: -1;
+    padding: 0px 80px;    
+}
+.words{
+    font-family: Verdana;
+    text-align: justify;
+    font-size: 18px;
+}
+h1{
+    padding-top: 10%;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.cover{
+    position:fixed;
+    opacity: 30%;
+    top: 100px;
+}
